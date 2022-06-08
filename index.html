@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>MBeauty</title>
+		<meta name="description" content="Simple starter webpack 5 project template boilerplate supporting SASS/PostCSS, Babel ES7, browser syncing, code linting. Easy project setup having multiple features and developer friendly tools.">
+		<meta name="keywords" content="webpack, webpack-configuration, template, boilerplate, setup, html, css, sass, javascript">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Plamen Nikolov, WeAreAthlon">
+		<link rel=”icon” href=”/favicon.ico” type=”image/x-icon”>
+	<link rel="icon" href="favicon.ico"><script defer src="js/app.js"></script><link href="css/app.css" rel="stylesheet"></head>
+
+	<body>
+		<div class="wrapper">
+
+			<header class="header">
+
+				<div class="container">
+
+					<div class="header__logo">
+						<svg width="84" height="147">
+							<use xlink:href="images/content/sprite-icon.svg#logo"></use>
+						</svg>
+					</div>
+					<div class="header__star">
+						<svg width="191" height="179" >
+							<use xlink:href="images/content/sprite-icon.svg#star"></use>
+						</svg>
+					</div>
+					<div class="header__window window-header">
+						<div class="window-header__window">
+							<svg width="197" height="376"> 
+								<use xlink:href="images/content/sprite-icon.svg#window"></use>
+							</svg>
+						</div>
+						<div class="window-header__new">
+							<img src="images/content/new.svg" alt="img">
+						</div>
+						<div class="window-header__beauty">
+							<img src="images/content/beauty-service.svg" alt="img">
+						</div>
+					</div>
+
+					<h1 class="header__title">Получайте стабильный поток клиентов в Ваш любимый бизнес</h1>
+					<h2 class="header__sub-title">Управляйте Вашим бизнесом через смартфон</h2>
+
+					<div class="header__btn">
+						<a href="#how">Как это работает?</ф>
+					</div>
+
+				</div>
+			
+			</header>
+		
+			<main>
+
+				<section class="launch">
+
+					<div class="container">
+						<h3 class="launch__title">запуск “MBeauty Network”</h3>
+						<div class="launch__body">
+							<div class="launch__img">
+								<img src="images/content/cat.svg" alt="">
+							</div>
+							<div class="timer">
+								<div class="timer__items">
+									<div class="timer__item timer__days "></span></div>
+									<span class="launch__border-days"></span>
+									<div class="timer__item timer__hours"></div>
+									<span class="launch__border-hours"></span>
+									<div class="timer__item timer__minutes"></div>
+									<span class="launch__border-minutes"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+						
+				</section>
+
+				<!-- <section id="how" class="how">
+					<div class="container">
+						<div class="how__title">
+							<h3 class="sub-title">Как это работает?</h3>
+						</div>
+							<div class="how__items">
+								<div class="how__item">
+									<div class="how__box">
+										<p>1</p>
+										<svg width="30" height="20"> 
+											<use xlink:href="images/content/sprite-icon.svg#flowers"></use>
+										</svg>
+									</div>
+									<p>Регистрируете свои услуги в новом сервисе MBeauty</p>
+								</div>
+								<div  class="how__item">
+									<div class="how__box">
+										<p>2</p>
+										<svg width="30" height="20"> 
+											<use xlink:href="images/content/sprite-icon.svg#flowers"></use>
+										</svg>
+									</div>
+									<p>Получаете клиентов и бесплатную CRM-систему в своей сфере</p>
+								</div>
+							</div>
+					</div>
+				</section>
+
+				<section class="solve-problem">
+					<div class="container">	
+							<h3 class="solve-problem__title">Мы решаем две основные проблемы</h3>
+						<div class="solve-problem__block problem-block">
+							<div class="problem-block__items">
+								<div class="problem-block__item-bg">
+									<p>I. Поиск клиентов</p>
+								</div>
+								<div class="problem-block__item">
+									<p>Управление клиентами</p>
+								</div>
+							</div>
+							<div class="problem-block__banners">
+								<div class="problem-block__banner">
+									<svg width="30" height="20"> 
+										<use xlink:href="images/content/sprite-icon.svg#flowers-pink"></use>
+									</svg>
+									<img src="images/content/mb.svg" alt="">
+								</div>
+								<div class="problem-block__banner">
+									<p>самостоятельно</p>
+								</div>
+							</div>
+						</div>
+						<div class="solve-problem__texts">
+							<div class="problem-text__title">1. Количество клиентов</div>
+							<div class="solve-problem__text problem-text">
+								<div class="problem-text__text-bg">
+									<p>  Постоянный поток клиентов. Система все делает за Вас</p>
+								</div>
+								<div class="problem-text__text">
+									<p>Нужно искать, заниматься рекламой, разбираться в маркетинге, трендах, особенно тяжело найти первых клиентов</p>
+								</div>
+							</div>
+							<div class="problem-text__title">2. Скорость заявки</div>
+							<div class="solve-problem__text problem-text">
+								<div class="problem-text__text-bg">
+									<p>  Автоматическая запись в один клик</p>
+								</div>
+								<div class="problem-text__text">
+									<p>Созвон и договоры занимают время. Клиент не сразу записывается. Не всегда удобно консультировать</p>
+								</div>
+							</div>
+							<div class="problem-text__title">3. Безопасность</div>
+							<div class="solve-problem__text problem-text">
+								<div class="problem-text__text-bg">
+									<p>У каждого клиента есть тайный рейтинг порядочности и все мастера его видят</p>
+								</div>
+								<div class="problem-text__text">
+									<p>Новые клиенты - всегда риск. Иногда не оправданный. Нет отзывов о клиенте</p>
+								</div>
+							</div>
+							<div class="problem-text__title">4. Понимание желания клиента</div>
+							<div class="solve-problem__text problem-text">
+								<div class="problem-text__text-bg">
+									<p> Клиент сам выбирает услугу, всё автоматизированно. В приложении есть возможность прикрепления фото и комментария к услуге</p>
+								</div>
+								<div class="problem-text__text">
+									<p>Не всегда понятно, что хочет клиент. Описание по телефону иногда не совпадает с действительностью. Консультатция занимает время</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="solve-problem__block problem-block">
+							<div class="problem-block__items">
+								<div class="problem-block__item">
+									<p>Поиск клиентов</p>
+								</div>
+								<div class="problem-block__item-bg margi-left">
+									<p>II. Управление клиентами</p>
+								</div>
+							</div>
+							<div class="problem-block__banners">
+								<div class="problem-block__banner">
+									<svg width="30" height="20"> 
+										<use xlink:href="images/content/sprite-icon.svg#flowers-pink" ></use>
+									</svg>
+									<img src="images/content/mb.svg" alt="">
+								</div>
+								<div class="problem-block__banner">
+									<p>самостоятельно</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="solve-problem__texts">
+							<div class="problem-text__title">1. Расписание</div>
+							<div class="solve-problem__text problem-text">
+								<div class="problem-text__text-bg">
+									<p> Клиенты автоматически попадают в Ваше электронное расписание, после одобренной Вами заявки, уже со всеми своими хотелками</p>
+								</div>
+								<div class="problem-text__text">
+									<p>Всё в блокноте, бесконечных таблицах в excel, всё приходится записывать вручную, иногда это большое количество деталей, что не всегда удобно</p>
+								</div>
+							</div>
+							<div class="problem-text__title">2. Оплата</div>
+							<div class="solve-problem__text problem-text">
+								<div class="problem-text__text-bg">
+									<p>  В приложении автоматический подсчет суммы за услуги  и дополнительный сервис. Клиент знает за что платит, может воспользоваться акциями и сделать соответствующий выбор в пользу того или инного салона.</p>
+								</div>
+								<div class="problem-text__text">
+									<p>Клиент не всегда понимает из чего складывается сумма и не готов платить больше. Вы сами вносите стоимость за свои услуги и дополнительный сервис. Клиент может не знать о существовании акций и бонусов в отдельных салонах</p>
+								</div>
+							</div>
+							<div class="problem-text__title">3. Финансы</div>
+							<div class="solve-problem__text problem-text">
+								<div class="problem-text__text-bg">
+									<p>  Все финансы видны в Вашем кабинете, есть графики доходов и расходов в разрезе недели/месяца</p>
+								</div>
+								<div class="problem-text__text">
+									<p>Ручной подсчет финансов (нужно знать формулы). Часто не считаете доход/расход, а просто получаете текущую прибыль</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section> -->
+
+			</main>
+
+			<footer>
+			
+			</footer>
+
+		</div>
+	</body>
+</html>
