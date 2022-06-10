@@ -589,7 +589,7 @@ input {
 }
 .launch__box {
   position: relative;
-  width: calc(100% - 15px);
+  width: calc(100% - 13px);
   background-color: #ffe9f3;
   border-radius: 13px;
 }
@@ -1450,9 +1450,8 @@ input {
   padding: 15px 5px;
   line-height: 17px;
 }
-@media (min-width: 370px) {
+@media (min-width: 350px) {
   .problem-text__text-bg p {
-    padding: 15px 6px;
     font-size: 14px;
   }
 }
@@ -1494,13 +1493,7 @@ input {
   font-size: 12px;
   padding: 6px 5px;
 }
-@media (min-width: 370px) {
-  .problem-text__text p {
-    padding: 6px 5px;
-    font-size: 13px;
-  }
-}
-@media (min-width: 390px) {
+@media (min-width: 350px) {
   .problem-text__text p {
     font-size: 14px;
   }
