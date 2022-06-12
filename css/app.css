@@ -1131,6 +1131,11 @@ input {
 .solve-problem {
   margin-bottom: 50px;
 }
+@media (min-width: 991px) {
+  .solve-problem {
+    margin-bottom: 80px;
+  }
+}
 .solve-problem__title {
   position: relative;
   z-index: 5;
@@ -1791,7 +1796,12 @@ input {
 
 .philosophy {
   position: relative;
-  margin: 80px 0 50px 0;
+  margin: 80px 0 25px 0;
+}
+@media (min-width: 991px) {
+  .philosophy {
+    margin: 200px 0 50px 0;
+  }
 }
 .philosophy__title {
   position: absolute;
@@ -1875,8 +1885,9 @@ input {
 }
 @media (min-width: 991px) {
   .philosophy__title {
-    -webkit-transform: scale(1.3);
-            transform: scale(1.3);
+    left: 50%;
+    -webkit-transform: translateX(-50%) scale(1.3);
+            transform: translateX(-50%) scale(1.3);
   }
 }
 .philosophy__blok {
@@ -1997,6 +2008,130 @@ input {
   position: absolute;
   left: 0;
   top: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.quiz {
+  margin-bottom: 30px;
+}
+@media (min-width: 991px) {
+  .quiz {
+    margin-bottom: 80px;
+  }
+}
+.quiz__title {
+  font-family: "Bebas Neue Bold";
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #f364ab;
+  margin-bottom: 38px;
+}
+@media (min-width: 991px) {
+  .quiz__title {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+}
+.quiz__items {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px 21px 23px 17px;
+  max-width: 500px;
+  margin: auto;
+}
+@media (min-width: 991px) {
+  .quiz__items {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+    margin-top: 90px;
+  }
+}
+.quiz__items::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 13px;
+  display: block;
+  width: calc(100% - 15px);
+  height: 100%;
+  border: 1px solid #fb9cc9;
+  border-radius: 13px;
+}
+.quiz__items::before {
+  content: "";
+  position: absolute;
+  top: -13px;
+  left: 0;
+  display: block;
+  width: calc(100% - 15px);
+  height: 100%;
+  border: 1px solid #fb9cc9;
+  border-radius: 13px;
+}
+.quiz__item-img {
+  width: 55%;
+  text-align: center;
+  margin-bottom: 23px;
+  position: relative;
+}
+.quiz__item-img::after {
+  content: "";
+  background: url(../images/design/hart-transparent.4e5223.png);
+  background-size: cover;
+  width: 90px;
+  height: 78px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: -15px;
+}
+.quiz__item-img p {
+  font-size: 14px;
+  line-height: 15px;
+}
+.quiz__item-img p span {
+  font-weight: 500;
+}
+.quiz__item {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.quiz__item p {
+  width: 80%;
+  font-size: 14px;
+  line-height: 15px;
+}
+.quiz__item p span {
+  font-weight: 500;
+}
+.quiz__bg-img {
+  position: absolute;
+  top: -74px;
+  right: -6px;
+  width: 106px;
+  height: 102px;
+  z-index: 1;
+  background-color: #fffdff;
+}
+.quiz__bg-img img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
