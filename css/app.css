@@ -594,7 +594,7 @@ input {
   left: 0;
   top: 135px;
   z-index: 0;
-  background: url(../images/design/flowers_phone.def773.jpg);
+  background: url(../images/design/flowers_phone.9db74d.jpg);
   display: block;
   width: 100vw;
   height: 146px;
@@ -1033,10 +1033,10 @@ input {
 }
 .how__box p {
   font-size: 37px;
-  line-height: 34px;
+  line-height: 36px;
   font-family: "Bebas Neue Bold";
   color: #ffffff;
-  margin-top: 10px;
+  margin-top: 9px;
 }
 
 .sub-title {
@@ -1744,7 +1744,7 @@ input {
 .for-whom__item {
   background-color: #ff7dbe;
   border-radius: 13px;
-  padding: 4px 12px 20px 3px;
+  padding: 4px 15px 20px 3px;
   position: relative;
   left: 0px;
   top: 0px;
@@ -1787,6 +1787,220 @@ input {
   line-height: 17px;
   text-align: center;
   padding-bottom: 5px;
+}
+
+.philosophy {
+  position: relative;
+  margin: 80px 0 50px 0;
+}
+.philosophy__title {
+  position: absolute;
+  z-index: 5;
+  top: -53px;
+  font-size: 26px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: "Bebas Neue Bold";
+  color: #ff96c5;
+  width: 100%;
+  margin-bottom: 35px;
+}
+.philosophy__title::after {
+  content: "Наша философия";
+  position: absolute;
+  z-index: -1;
+  top: -20px;
+  left: 50%;
+  width: 600px;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  font-family: "Noteworthy";
+  font-size: 20px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 209, 229, 0.42);
+}
+@media (min-width: 350px) {
+  .philosophy__title::after {
+    font-size: 22px;
+    top: -21px;
+  }
+}
+@media (min-width: 390px) {
+  .philosophy__title::after {
+    font-size: 25px;
+    top: -22px;
+  }
+}
+.philosophy__title::before {
+  content: "Наша философия";
+  position: absolute;
+  z-index: -1;
+  top: -20px;
+  left: 49.3%;
+  width: 600px;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  font-family: "Noteworthy";
+  font-size: 20px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgba(255, 209, 229, 0.42);
+}
+@media (min-width: 350px) {
+  .philosophy__title::before {
+    font-size: 22px;
+    top: -21px;
+  }
+}
+@media (min-width: 390px) {
+  .philosophy__title::before {
+    font-size: 25px;
+    top: -22px;
+  }
+}
+@media (min-width: 768px) {
+  .philosophy__title::before {
+    left: 49.6%;
+  }
+}
+@media (min-width: 991px) {
+  .philosophy__title::before {
+    left: 49.7%;
+  }
+}
+@media (min-width: 991px) {
+  .philosophy__title {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+}
+.philosophy__blok {
+  max-width: 500px;
+  position: relative;
+  z-index: 10;
+  top: 25px;
+  width: calc(100% - 20px);
+  margin: auto;
+  background-color: #fffdff;
+  border-radius: 13px;
+}
+@media (min-width: 991px) {
+  .philosophy__blok {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
+    top: 50px;
+  }
+}
+.philosophy__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 15px 8px 10px;
+}
+@media (min-width: 370px) {
+  .philosophy__items {
+    padding: 15px 15px 8px 10px;
+  }
+}
+@media (min-width: 390px) {
+  .philosophy__items {
+    padding: 20px 30px 8px 15px;
+  }
+}
+.philosophy__item-img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25%;
+          flex: 1 1 25%;
+  width: 25%;
+  margin: auto;
+}
+@media (min-width: 370px) {
+  .philosophy__item-img {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 22%;
+            flex: 1 1 22%;
+    width: 22%;
+  }
+}
+@media (min-width: 390px) {
+  .philosophy__item-img {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 18%;
+            flex: 1 1 18%;
+    width: 18%;
+  }
+}
+.philosophy__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 75%;
+          flex: 1 1 75%;
+}
+@media (min-width: 370px) {
+  .philosophy__item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 78%;
+            flex: 1 1 78%;
+  }
+}
+@media (min-width: 390px) {
+  .philosophy__item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 82%;
+            flex: 1 1 82%;
+  }
+}
+.philosophy__text {
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  margin-bottom: 7px;
+}
+@media (min-width: 370px) {
+  .philosophy__text {
+    font-size: 15px;
+    line-height: 18px;
+    padding-left: 5px;
+  }
+}
+.philosophy__box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.philosophy__img img {
+  max-width: 100%;
+  height: 19px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.philosophy__item-img-bg {
+  height: 100%;
+  padding: 25px 0;
+}
+@media (min-width: 991px) {
+  .philosophy__item-img-bg {
+    padding: 50px 0;
+  }
+}
+.philosophy__item-img-bg img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* Demo Page styles */
