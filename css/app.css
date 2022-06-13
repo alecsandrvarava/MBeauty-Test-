@@ -594,7 +594,7 @@ input {
   left: 0;
   top: 135px;
   z-index: 0;
-  background: url(../images/design/flowers_phone.9db74d.jpg);
+  background: url(../images/design/flowers_phone.caf638.jpg);
   display: block;
   width: 100vw;
   height: 146px;
@@ -1065,7 +1065,7 @@ input {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 209, 229, 0.42);
+  color: #ffd3e6;
 }
 @media (min-width: 350px) {
   .sub-title::after {
@@ -1084,7 +1084,7 @@ input {
   position: absolute;
   z-index: -1;
   top: -20px;
-  left: 49.3%;
+  left: calc(50% - 2px);
   width: 600px;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
@@ -1093,7 +1093,7 @@ input {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 209, 229, 0.42);
+  color: #ffd3e6;
 }
 @media (min-width: 350px) {
   .sub-title::before {
@@ -1104,17 +1104,7 @@ input {
 @media (min-width: 390px) {
   .sub-title::before {
     font-size: 25px;
-    top: -22px;
-  }
-}
-@media (min-width: 768px) {
-  .sub-title::before {
-    left: 49.6%;
-  }
-}
-@media (min-width: 991px) {
-  .sub-title::before {
-    left: 49.7%;
+    top: -23px;
   }
 }
 @media (min-width: 991px) {
@@ -1163,7 +1153,7 @@ input {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 209, 229, 0.42);
+  color: #ffd3e6;
 }
 @media (min-width: 350px) {
   .solve-problem__title::after {
@@ -1182,7 +1172,7 @@ input {
   position: absolute;
   z-index: -1;
   top: -20px;
-  left: 49.3%;
+  left: calc(50% - 2px);
   width: 600px;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
@@ -1191,7 +1181,7 @@ input {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 209, 229, 0.42);
+  color: #ffd3e6;
 }
 @media (min-width: 350px) {
   .solve-problem__title::before {
@@ -1202,17 +1192,7 @@ input {
 @media (min-width: 390px) {
   .solve-problem__title::before {
     font-size: 25px;
-    top: -22px;
-  }
-}
-@media (min-width: 768px) {
-  .solve-problem__title::before {
-    left: 49.6%;
-  }
-}
-@media (min-width: 991px) {
-  .solve-problem__title::before {
-    left: 49.7%;
+    top: -23px;
   }
 }
 @media (min-width: 991px) {
@@ -1648,7 +1628,7 @@ input {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 209, 229, 0.42);
+  color: #ffd3e6;
 }
 @media (min-width: 350px) {
   .for-whom__title::after {
@@ -1667,7 +1647,7 @@ input {
   position: absolute;
   z-index: -1;
   top: -20px;
-  left: 49.3%;
+  left: calc(50% - 2px);
   width: 600px;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
@@ -1676,7 +1656,7 @@ input {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 209, 229, 0.42);
+  color: #ffd3e6;
 }
 @media (min-width: 350px) {
   .for-whom__title::before {
@@ -1687,17 +1667,7 @@ input {
 @media (min-width: 390px) {
   .for-whom__title::before {
     font-size: 25px;
-    top: -22px;
-  }
-}
-@media (min-width: 768px) {
-  .for-whom__title::before {
-    left: 49.6%;
-  }
-}
-@media (min-width: 991px) {
-  .for-whom__title::before {
-    left: 49.7%;
+    top: -23px;
   }
 }
 @media (min-width: 991px) {
@@ -1831,7 +1801,7 @@ input {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 209, 229, 0.42);
+  color: #ffd3e6;
 }
 @media (min-width: 350px) {
   .philosophy__title::after {
@@ -1842,7 +1812,7 @@ input {
 @media (min-width: 390px) {
   .philosophy__title::after {
     font-size: 25px;
-    top: -22px;
+    top: -23px;
   }
 }
 .philosophy__title::before {
@@ -1850,7 +1820,7 @@ input {
   position: absolute;
   z-index: -1;
   top: -20px;
-  left: 49.3%;
+  left: calc(50% - 2px);
   width: 600px;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
@@ -1859,7 +1829,7 @@ input {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 209, 229, 0.42);
+  color: #ffd3e6;
 }
 @media (min-width: 350px) {
   .philosophy__title::before {
@@ -1871,16 +1841,6 @@ input {
   .philosophy__title::before {
     font-size: 25px;
     top: -22px;
-  }
-}
-@media (min-width: 768px) {
-  .philosophy__title::before {
-    left: 49.6%;
-  }
-}
-@media (min-width: 991px) {
-  .philosophy__title::before {
-    left: 49.7%;
   }
 }
 @media (min-width: 991px) {
@@ -1979,19 +1939,27 @@ input {
   }
 }
 .philosophy__box {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 10px;
-  -webkit-box-pack: stretch;
-      -ms-flex-pack: stretch;
-          justify-content: stretch;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 -5px;
+}
+.philosophy__img {
+  max-width: 66px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  padding: 0 5px;
+  height: 19px;
 }
 .philosophy__img img {
-  max-width: 100%;
-  height: 19px;
+  width: 100%;
+  height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
 }
