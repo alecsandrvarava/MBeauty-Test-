@@ -1094,7 +1094,7 @@ input {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 211, 230, 0.42);
+  color: rgba(255, 211, 230, 0.25);
 }
 @media (min-width: 350px) {
   .sub-title::after {
@@ -1122,7 +1122,7 @@ input {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 211, 230, 0.42);
+  color: rgba(255, 211, 230, 0.25);
 }
 @media (min-width: 350px) {
   .sub-title::before {
@@ -1182,7 +1182,7 @@ input {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 211, 230, 0.42);
+  color: rgba(255, 211, 230, 0.25);
 }
 @media (min-width: 350px) {
   .solve-problem__title::after {
@@ -1210,7 +1210,7 @@ input {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 211, 230, 0.42);
+  color: rgba(255, 211, 230, 0.25);
 }
 @media (min-width: 350px) {
   .solve-problem__title::before {
@@ -1657,7 +1657,7 @@ input {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 211, 230, 0.42);
+  color: rgba(255, 211, 230, 0.25);
 }
 @media (min-width: 350px) {
   .for-whom__title::after {
@@ -1685,7 +1685,7 @@ input {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 211, 230, 0.42);
+  color: rgba(255, 211, 230, 0.25);
 }
 @media (min-width: 350px) {
   .for-whom__title::before {
@@ -1831,7 +1831,7 @@ input {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 211, 230, 0.42);
+  color: rgba(255, 211, 230, 0.25);
 }
 @media (min-width: 350px) {
   .philosophy__title::after {
@@ -1859,7 +1859,7 @@ input {
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: rgba(255, 211, 230, 0.42);
+  color: rgba(255, 211, 230, 0.25);
 }
 @media (min-width: 350px) {
   .philosophy__title::before {
