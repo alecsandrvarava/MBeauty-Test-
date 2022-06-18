@@ -797,9 +797,13 @@ input {
   font-family: "Bebas Neue Regular";
   z-index: 50;
   left: 86px;
-  top: 50%;
+	line-height: 0;
+  /* top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+          transform: translateY(-50%); */
+					display: flex;
+    align-items: center;
+
   border-radius: 6px;
   letter-spacing: 16px;
   font-size: 28px;
