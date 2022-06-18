@@ -673,6 +673,11 @@ input {
   text-transform: uppercase;
   padding: 18px 0 24px 0;
 }
+@media (min-width: 350px) {
+  .launch__title span {
+    font-size: 20px;
+  }
+}
 @media (min-width: 370px) {
   .launch__title span {
     font-size: 22px;
@@ -686,6 +691,11 @@ input {
 @media (min-width: 768px) {
   .launch__title span {
     font-size: 26px;
+  }
+}
+@media (min-width: 350px) {
+  .launch__title {
+    font-size: 20px;
   }
 }
 @media (min-width: 370px) {
@@ -745,8 +755,7 @@ input {
 }
 
 .timer {
-  position: relative;
-  width: 258px;
+  width: 262px;
   margin: auto;
 }
 @media (min-width: 370px) {
@@ -758,6 +767,9 @@ input {
   .timer {
     width: 340px;
   }
+}
+.timer__absolute {
+  position: relative;
 }
 
 .timer__items {
@@ -782,10 +794,13 @@ input {
 }
 
 .timer__item {
-  position: relative;
+  position: absolute;
   font-family: "Bebas Neue Regular";
   z-index: 50;
-  top: 14px;
+  left: 86px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   right: -85.7px;
   border-radius: 6px;
   letter-spacing: 16px;
@@ -795,7 +810,7 @@ input {
 }
 @media (min-width: 370px) {
   .timer__item {
-    right: -83px;
+    left: 83px;
     font-size: 34px;
     letter-spacing: 19.5px;
   }
@@ -803,7 +818,7 @@ input {
 @media (min-width: 390px) {
   .timer__item {
     letter-spacing: 21px;
-    right: -102.8px;
+    left: 103px;
     font-size: 34px;
   }
 }
@@ -814,7 +829,7 @@ input {
   position: absolute;
   z-index: 10;
   left: -11%;
-  top: 46px;
+  top: 45px;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -839,6 +854,7 @@ input {
 }
 @media (min-width: 390px) {
   .timer__item::before {
+    top: 46px;
     left: -2%;
   }
 }
