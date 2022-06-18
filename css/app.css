@@ -770,7 +770,6 @@ input {
 }
 .timer__absolute {
   position: relative;
-  height: 68px;
 }
 
 .timer__items {
@@ -794,19 +793,16 @@ input {
 }
 
 .timer__item {
-  position: absolute;
+  position: relative;
   font-family: "Bebas Neue Regular";
   z-index: 50;
   left: 86px;
   top: 50%;
-	height: 38px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  right: -85.7px;
   border-radius: 6px;
   letter-spacing: 16px;
   font-size: 28px;
-  line-height: 41px;
   color: #ffffff;
 }
 @media (min-width: 370px) {
@@ -824,9 +820,6 @@ input {
   }
 }
 
-.timer__item {
-  position: relative;
-}
 .timer__item::after {
   content: "";
   position: absolute;
@@ -836,7 +829,7 @@ input {
           transform: translateY(-50%);
   border-radius: 6px;
   width: 22px;
-  height: 68px;
+  padding: 34px 0;
   z-index: -1;
 }
 @media (min-width: 370px) {
@@ -853,7 +846,7 @@ input {
   background-color: rgba(255, 150, 197, 0.8);
   border-radius: 6px;
   width: 22px;
-  height: 68px;
+  padding: 34px 0;
   z-index: -1;
 }
 @media (min-width: 370px) {
@@ -880,7 +873,7 @@ input {
           transform: scale(0.5);
   position: absolute;
   right: -17.5px;
-  top: 22px;
+  top: 24px;
 }
 @media (min-width: 370px) {
   .launch__border-seconds > span::after,
