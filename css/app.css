@@ -612,7 +612,7 @@ input {
 }
 @media (min-width: 991px) {
   .launch::before {
-    top: 195px;
+    top: 100px;
   }
 }
 .launch__body {
@@ -805,6 +805,7 @@ input {
     letter-spacing: 21px;
     right: -102.8px;
     font-size: 34px;
+    top: 14px;
   }
 }
 
@@ -840,6 +841,7 @@ input {
 @media (min-width: 390px) {
   .timer__item::before {
     left: -2%;
+    top: 46px;
   }
 }
 
@@ -956,7 +958,7 @@ input {
   .launch__border-seconds > span::after,
 .launch__border-minutes > span::after {
     right: -90.7px;
-    top: 22px;
+    top: 23px;
   }
 }
 
