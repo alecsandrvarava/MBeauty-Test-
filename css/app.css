@@ -799,6 +799,7 @@ input {
   z-index: 50;
   left: 86px;
   top: 50%;
+	height: 38px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   right: -85.7px;
