@@ -599,6 +599,59 @@ input {
     margin-bottom: 130px;
   }
 }
+
+.cub {
+	width: 100%;
+	height: 150px;
+	position: relative;
+
+
+}
+.cub__img span{
+	position: absolute;
+	color: #fff;
+	z-index: 50;
+	top: 50%;
+	transform: translateY(-50%);
+	font-family: "Bebas Neue Bold";
+  font-size: 19px;
+
+}
+.cub__img::after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	content: "";
+	height: 50%;
+	width: 100%;
+	background-color: #444444;
+	/* z-index: -1; */
+}
+.cub__img::before {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	content: "";
+	height: 50%;
+	width: 100%;
+	background-color: green;
+	/* z-index: -1; */
+}
+
+.cub__img > span::after
+{
+  content: "";
+  background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMyIgaGVpZ2h0PSIxMyIgdmlld0JveD0iMCAwIDMgMTMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+DQo8cGF0aCBkPSJNMC4xODA2NjQgMTAuMzVWMTNIMi44MzA2NlYxMC4zNUgwLjE4MDY2NFpNMC4xODA2NjQgMC44MjVWMy40NzVIMi44MzA2NlYwLjgyNUgwLjE4MDY2NFoiIGZpbGw9IiNGRjk2QzUiLz4NCjwvc3ZnPg0K);
+  width: 2.5px;
+  height: 12.5px;
+  background-size: cover;
+  position: absolute;
+  right: -7.5px;
+  top: 50%;
+	transform: translateY(-50%);
+}
+
+
 .launch::before {
   content: "";
   position: absolute;
