@@ -894,8 +894,7 @@ input {
   background-size: contain;
   position: absolute;
   z-index: 0;
-  right: 0px;
-  right: -3.5px;
+  right: -3px;
   top: 28px;
 }
 @media (min-width: 370px) {
