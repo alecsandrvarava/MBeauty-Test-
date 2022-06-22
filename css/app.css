@@ -483,11 +483,12 @@ input {
   content: "";
   position: absolute;
   right: 20px;
-  top: 14px;
   display: inline-block;
   background: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyMCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEuNTExOTcgMUwxMC40NzIxIDExLjU1NjNMMS41MTE5NyAyMi41IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CjxwYXRoIGQ9Ik0xMC45NDA3IDIuMDc1MkwxOS4wMDQ4IDExLjU3NTlMMTAuOTQwNyAyMS40MjUyIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+Cjwvc3ZnPgo=) no-repeat;
-  width: 20px;
-  height: 24px;
+  background-size: contain;
+  background-position: center;
+  width: 18px;
+  height: 23px;
   color: #ffffff;
 }
 
@@ -777,6 +778,16 @@ input {
   .timer__days::before {
     left: 25px;
     top: 0.5px;
+  }
+}
+@media (min-width: 768px) {
+  .timer__days::before {
+    top: 1.5px;
+  }
+}
+@media (min-width: 991px) {
+  .timer__days::before {
+    top: 2px;
   }
 }
 
