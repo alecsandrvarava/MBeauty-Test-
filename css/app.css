@@ -440,8 +440,7 @@ input {
   }
 }
 .header__btn {
-  max-width: 400px;
-  width: 90%;
+  max-width: 348px;
   margin: auto;
   position: relative;
   bottom: 40px;
@@ -467,7 +466,7 @@ input {
   display: inline-block;
   font-weight: 600;
   font-size: 19px;
-  line-height: 23px;
+  line-height: 22px;
   text-align: center;
   color: #ffffff;
   background-color: #f364ab;
